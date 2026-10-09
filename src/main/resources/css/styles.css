@@ -1,0 +1,169 @@
+/* ===== COLORES EXACTOS DEL FIGMA ===== */
+.root-pane {
+    -fx-background-color: #fcf2e5;
+}
+
+/* ===== HEADER ===== */
+.header {
+    -fx-background-color: #524646;
+    -fx-pref-height: 140;
+    -fx-padding: 0 40 0 0;
+}
+
+.header-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #fcf2e5;
+    -fx-font-family: "Arial Black", "Segoe UI";
+    -fx-padding: 0 0 0 5;
+}
+
+.nav-link {
+    -fx-font-size: 16px;
+    -fx-text-fill: #fcf2e5;
+    -fx-font-family: "Arial Black", "Segoe UI";
+    -fx-cursor: hand;
+}
+
+.nav-link:hover {
+    -fx-text-fill: #d99b21;
+}
+
+/* ===== CONTENIDO ===== */
+.main-content {
+    -fx-background-color: #fcf2e5;
+}
+
+/* ===== TARJETAS HABITACION ===== */
+.habitacion-card {
+    -fx-background-color: #a8a492;
+    -fx-background-radius: 40;
+    -fx-padding: 0;
+    -fx-pref-width: 350;
+    -fx-max-width: 350;
+    -fx-min-width: 300;
+    -fx-pref-height: 480;
+    -fx-alignment: TOP_LEFT;
+    -fx-spacing: 0;
+}
+
+.habitacion-imagen {
+    -fx-background-color: #8a8575;
+    -fx-background-radius: 40 40 0 0;
+    -fx-pref-width: 350;
+    -fx-max-width: 350;
+    -fx-min-width: 300;
+    -fx-pref-height: 300;
+    -fx-alignment: CENTER;
+}
+
+.habitacion-info {
+    -fx-padding: 8 20 0 20;
+    -fx-spacing: 2;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.habitacion-nombre {
+    -fx-font-size: 18px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #000000;
+    -fx-font-family: "Arial Black", "Segoe UI";
+}
+
+.habitacion-precio {
+    -fx-font-size: 13px;
+    -fx-text-fill: #333333;
+    -fx-font-family: "Arial Black", "Segoe UI";
+}
+
+.btn-reservar {
+    -fx-background-color: #d99b21;
+    -fx-text-fill: #000000;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black", "Segoe UI";
+    -fx-background-radius: 40;
+    -fx-pref-width: 140;
+    -fx-pref-height: 70;
+    -fx-cursor: hand;
+    -fx-wrap-text: true;
+    -fx-alignment: CENTER;
+}
+
+.btn-reservar:hover {
+    -fx-background-color: #c48a1a;
+}
+
+.btn-reservar:pressed {
+    -fx-background-color: #a87515;
+}
+
+/* ===== PROMOCIONES ===== */
+.promo-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #000000;
+    -fx-font-family: "Arial Black", "Segoe UI";
+    -fx-padding: 0 0 3 0;
+}
+
+.promo-box {
+    -fx-background-color: #524646;
+    -fx-background-radius: 40;
+    -fx-pref-width: 280;
+    -fx-pref-height: 450;
+}
+
+.promo-item {
+    -fx-background-color: transparent;
+    -fx-padding: 3 0 3 0;
+    -fx-spacing: 3;
+}
+
+.promo-item-titulo {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #fcf2e5;
+    -fx-font-family: "Arial Black", "Segoe UI";
+    -fx-wrap-text: true;
+    -fx-max-width: 250;
+}
+
+.promo-item-descuento {
+    -fx-font-size: 10px;
+    -fx-text-fill: #fcf2e5;
+    -fx-opacity: 0.71;
+    -fx-font-family: "Arial Black", "Segoe UI";
+    -fx-wrap-text: true;
+    -fx-max-width: 250;
+}
+
+/* ===== SERVICIOS ===== */
+.section-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #000000;
+    -fx-font-family: "Arial Black", "Segoe UI";
+    -fx-padding: 0 0 5 0;
+}
+
+.servicio-pill {
+    -fx-background-color: #a8a492;
+    -fx-background-radius: 40;
+    -fx-min-width: 200;
+    -fx-pref-height: 55;
+    -fx-padding: 0 15 0 20;
+    -fx-alignment: CENTER_LEFT;
+    -fx-spacing: 10;
+}
+
+.servicio-pill Label {
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #000000;
+    -fx-font-family: "Arial Black", "Segoe UI";
+}
+
+.servicio-icono {
+    -fx-font-size: 16px;
+}
